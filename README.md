@@ -6,7 +6,8 @@ Static GitHub Pages website for a proposed NeurIPS 2026 workshop: **Foundation M
 
 ## Edit content
 
-- Main page: `index.html`
+- Public site: `index.html` (lean pre-proposal page)
+- Proposal drafts: `PROPOSAL_NOTES.md` (schedule, topics, checklist—organizers only)
 - Styling: `assets/styles.css`
 
 ## Publish at `https://ai4longevity.github.io`
