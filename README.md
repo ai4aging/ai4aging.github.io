@@ -1,4 +1,4 @@
-# AI4Longevity Workshop Website
+# AI4Aging Workshop Website
 
 Static GitHub Pages website for a proposed NeurIPS 2026 workshop: **Foundation Models and Generative AI for Longevity Science**.
 
