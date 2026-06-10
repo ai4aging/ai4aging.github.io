@@ -57,6 +57,11 @@ h3 { font-size: 20px; margin: 0 0 6px; }
 .person { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 22px; }
 .person p { margin: 0; color: var(--muted); font-size: 16px; }
 .affiliation { color: var(--accent) !important; font-weight: 700; margin-bottom: 8px !important; }
+.schedule { border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: var(--panel); }
+.schedule div { display: grid; grid-template-columns: 88px 1fr; gap: 16px; padding: 16px 20px; border-bottom: 1px solid var(--line); align-items: baseline; }
+.schedule div:last-child { border-bottom: none; }
+.schedule time { color: var(--accent); font-weight: 800; font-size: 15px; }
+.schedule span { color: var(--muted); font-size: 16px; }
 .contact { text-align: center; }
 .contact p { color: var(--muted); }
 footer { padding: 28px 24px; text-align: center; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
@@ -68,5 +73,6 @@ footer a { color: var(--muted); }
   .speaker-grid { grid-template-columns: 1fr; }
   .date-list div { grid-template-columns: 1fr; }
   .date-list dd { text-align: left; white-space: normal; }
+  .schedule div { grid-template-columns: 72px 1fr; gap: 12px; }
   .hero { min-height: 460px; }
 }
