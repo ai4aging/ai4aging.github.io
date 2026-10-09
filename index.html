@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AI for Aging Research | NeurIPS 2026 Workshop (Proposed)</title>
-  <meta name="description" content="The first proposed NeurIPS workshop on AI for aging research." />
+  <title>AI for Aging Research | ICLR 2027 Workshop (Proposed)</title>
+  <meta name="description" content="AI4AR is a proposed ICLR 2027 workshop on learning, predicting, and intervening on biological aging." />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
   <header class="site-header">
     <nav class="nav">
-      <a class="brand" href="#top">AI4Aging</a>
+      <a class="brand" href="#top">AI4AR</a>
       <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
       <div class="nav-links">
         <a href="#about">About</a>
@@ -29,135 +29,147 @@
     <section class="hero">
       <div class="hero-bg"></div>
       <div class="hero-content">
-        <p class="eyebrow">Proposed NeurIPS 2026 Workshop</p>
-        <p class="hero-note">The first NeurIPS workshop on</p>
+        <p class="eyebrow">Proposed ICLR 2027 Workshop</p>
+        <p class="hero-note">AI4AR</p>
         <h1>AI for Aging Research</h1>
-        <p class="subtitle">AI for modeling aging, predicting interventions, and accelerating discovery in aging biology.</p>
-        <p class="status-card"><strong>Status:</strong> Workshop proposal in preparation. NeurIPS decisions expected July 11, 2026.</p>
+        <p class="subtitle">Learning, predicting, and intervening on biological aging.</p>
+        <p class="status-card"><strong>Status:</strong> Workshop proposal for ICLR 2027. Acceptance notification expected November 29, 2026.</p>
       </div>
     </section>
 
     <section id="about" class="section">
       <p class="eyebrow">About</p>
       <div class="prose">
-        <p>Recent advances in foundation models, generative AI, and large-scale biological datasets are transforming how we model cells, predict interventions, and study disease. At the same time, aging science has emerged as a major scientific frontier, driven by new aging biomarkers, cellular reprogramming, large perturbation datasets, and growing interest in understanding the mechanisms of aging.</p>
-        <p>Despite this momentum, there is currently no dedicated venue at NeurIPS focused on the unique machine learning challenges of aging biology and interventions for aging.</p>
-        <p>Aging is not a single disease. It is a dynamic, multi-scale process spanning molecules, cells, tissues, and organisms over time. Addressing it requires advances in representation learning, causal reasoning, generative modeling, uncertainty quantification, and experimental design.</p>
-        <p>This workshop brings together researchers from machine learning, computational biology, and aging research to discuss how AI can help model aging, predict intervention outcomes, discover new biological mechanisms, and accelerate progress toward healthier aging.</p>
+        <p>Aging is the greatest risk factor for most chronic diseases, yet AI cannot yet reliably measure how biological systems age, predict how they respond to interventions, or design interventions that slow or reverse aging. AI4AR brings together AI researchers, computational biologists, and aging scientists to turn these three problems into well-posed machine learning challenges with shared benchmarks.</p>
+        <p>To our knowledge, this is the first workshop dedicated to AI for aging at a major AI conference. The one-day program combines keynotes, a panel, contributed spotlights, tiny-paper pitches, poster sessions, and an open-problems roundtable whose output will be a public AI4AR Open Problems and Benchmarking Roadmap.</p>
+        <p>The workshop is organized around three capabilities current AI systems still lack:</p>
+        <ul class="topic-list">
+          <li><strong>Measure.</strong> Learn representations of biological age and state, from cell to organism, that capture function, resilience, and responsiveness rather than only chronological age.</li>
+          <li><strong>Predict and simulate.</strong> Infer aging trajectories from sparse data and predict the effects of genetic, chemical, and reprogramming interventions, including ones never seen in training.</li>
+          <li><strong>Design.</strong> Propose new interventions and choose the next experiment, closing the loop between models and the lab.</li>
+        </ul>
       </div>
     </section>
 
     <section id="topics" class="section compact">
       <p class="eyebrow">Topics</p>
       <h2>Areas of interest</h2>
-      <ul class="topic-list prose">
-        <li>Foundation models for biology and aging</li>
-        <li>Virtual cells and biological world models</li>
-        <li>Perturbation and intervention modeling</li>
-        <li>Aging clocks and biological age prediction</li>
-        <li>Multimodal and longitudinal biological data</li>
-        <li>Causal inference and experimental design</li>
-        <li>AI-driven discovery for aging and rejuvenation</li>
-        <li>Benchmarks, evaluation, and reproducibility</li>
-      </ul>
+      <p class="section-intro">Submissions should have a substantive machine learning component. Topics follow the measure, predict, and design arc.</p>
+      <div class="topic-group">
+        <h3>Measure: biological age and state</h3>
+        <ul class="topic-list prose">
+          <li>Representation learning for biological state, biological age, and aging trajectories</li>
+          <li>Aging clocks from single cells to tissues, organs, and clinical biomarkers</li>
+          <li>Multimodal integration across transcriptomic, epigenetic, proteomic, morphological, and spatial readouts</li>
+          <li>Cross-species and cross-tissue transfer of aging representations</li>
+        </ul>
+      </div>
+      <div class="topic-group">
+        <h3>Predict and simulate: virtual aging cells and world models</h3>
+        <ul class="topic-list prose">
+          <li>Virtual cells in time, and biological world models from cell to organism</li>
+          <li>Dynamical models and trajectory inference from cross-sectional and sparse longitudinal data</li>
+          <li>Counterfactual prediction of genetic, chemical, environmental, and reprogramming interventions</li>
+          <li>Causal representation learning for aging, and uncertainty under distribution shift</li>
+        </ul>
+      </div>
+      <div class="topic-group">
+        <h3>Design: discovering and optimizing interventions</h3>
+        <ul class="topic-list prose">
+          <li>Generative design and functional genomics for rejuvenation factors and targets</li>
+          <li>Optimizing combinations, dose, timing, and delivery</li>
+          <li>Active learning, experimental design, and lab-in-the-loop agents</li>
+          <li>Benchmarks and evaluation when lifespan and healthspan are hard to observe</li>
+        </ul>
+      </div>
     </section>
 
     <section id="cfp" class="section">
       <p class="eyebrow">Call for Papers</p>
-      <h2>Contributions (after acceptance)</h2>
+      <h2>Two tracks</h2>
       <div class="prose">
-        <p>Submission details will be posted here if the workshop is accepted. We plan to use <strong>OpenReview</strong>, with <strong>non-archival</strong> workshop papers (per <a href="https://neurips.cc/Conferences/2026/WorkshopsGuidance" target="_blank" rel="noopener">NeurIPS 2026 workshop policy</a>).</p>
-        <p>We welcome research, position, dataset/benchmark, and systems contributions on AI for aging and intervention modeling. We will not accept work already published at major ML venues or presented at the NeurIPS 2026 main conference.</p>
-        <p>Format (planned): posters for accepted papers; a subset invited for spotlight talks.</p>
+        <p>If the workshop is accepted, submissions will be through <strong>OpenReview</strong> on the ICLR workshop template. Both tracks are <strong>non-archival</strong> and double-blind. Papers already published at an ML conference, including the ICLR 2027 main track, are not eligible.</p>
+        <ul class="topic-list">
+          <li><strong>Full papers</strong> (4–8 pages, excluding references): original methods, empirical studies, benchmarks, or datasets. Eight spotlight talks.</li>
+          <li><strong>Tiny papers</strong> (1–2 pages, excluding references): early ideas, negative results, re-analyses, perspectives, and new datasets. Six pitches.</li>
+        </ul>
+        <p>Every submission must include an aging-relevance statement of at most 100 words: what the work teaches us about learning, predicting, or intervening on biological aging. The planned submission deadline is <strong>February 1, 2027</strong> (11:59pm AoE), with author notification no later than <strong>February 26, 2027</strong>.</p>
       </div>
     </section>
 
     <section id="dates" class="section compact">
       <p class="eyebrow">Important Dates</p>
-      <h2>NeurIPS 2026 milestones</h2>
-      <p class="section-intro">Official workshop timeline from NeurIPS. Workshop-specific CFP dates will be added after acceptance.</p>
+      <h2>ICLR 2027 timeline</h2>
+      <p class="section-intro">Workshop dates follow the ICLR 2027 proposal timeline. All times are Anywhere on Earth unless noted.</p>
       <dl class="date-list">
-        <div><dt>Workshop application deadline</dt><dd>June 6, 2026 (AoE)</dd></div>
-        <div><dt>Workshop acceptance notification</dt><dd>July 11, 2026 (AoE)</dd></div>
-        <div><dt>Suggested paper submission date</dt><dd>August 29, 2026 (AoE)</dd></div>
-        <div><dt>Mandatory author notification</dt><dd>September 29, 2026 (AoE)</dd></div>
-        <div><dt>Workshop dates</dt><dd>Dec 11–12 (Sydney); Dec 12–13 (Paris, Atlanta)</dd></div>
+        <div><dt>Workshop proposal deadline</dt><dd>October 9, 2026</dd></div>
+        <div><dt>Acceptance notification</dt><dd>November 29, 2026</dd></div>
+        <div><dt>Call for papers</dt><dd>Mid-December 2026</dd></div>
+        <div><dt>Submission deadline</dt><dd>February 1, 2027</dd></div>
+        <div><dt>Author notification</dt><dd>February 26, 2027</dd></div>
+        <div><dt>Camera-ready papers</dt><dd>Mid-March 2027</dd></div>
       </dl>
     </section>
 
     <section id="speakers" class="section">
       <p class="eyebrow">Speakers</p>
-      <h2>Proposed speakers</h2>
-      <p class="section-intro">Speaker slate for the NeurIPS 2026 workshop proposal.</p>
+      <h2>Confirmed speakers</h2>
+      <p class="section-intro">All invited speakers have confirmed. Keynote and panel assignments will be finalized after acceptance. Organizers will not give talks.</p>
       <div class="speaker-grid">
         <article class="person">
-          <h3>Steve Horvath</h3>
-          <p class="affiliation">UCLA · David Geffen School of Medicine</p>
+          <h3>Omar Abudayyeh</h3>
+          <p class="affiliation">Harvard Medical School · Brigham and Women’s Hospital</p>
         </article>
         <article class="person">
-          <h3>Morgan Levine</h3>
-          <p class="affiliation">Altos Labs</p>
+          <h3>Maria Brbić</h3>
+          <p class="affiliation">EPFL</p>
         </article>
         <article class="person">
           <h3>Charlotte Bunne</h3>
           <p class="affiliation">EPFL</p>
         </article>
         <article class="person">
-          <h3>Maria Brbic</h3>
-          <p class="affiliation">EPFL</p>
-        </article>
-        <article class="person">
-          <h3>Sarah Teichmann</h3>
-          <p class="affiliation">University of Cambridge</p>
-        </article>
-        <article class="person">
-          <h3>Omar Abudayyeh</h3>
-          <p class="affiliation">Harvard Medical School · Broad Institute of MIT and Harvard</p>
+          <h3>Steve Horvath</h3>
+          <p class="affiliation">UCLA</p>
         </article>
         <article class="person">
           <h3>Jacob Kimmel</h3>
           <p class="affiliation">NewLimit</p>
         </article>
         <article class="person">
-          <h3>Mahdi Moqri</h3>
-          <p class="affiliation">Harvard Medical School · Brigham and Women’s Hospital</p>
-        </article>
-        <article class="person">
-          <h3>Thore Graepel</h3>
-          <p class="affiliation">Google DeepMind</p>
-        </article>
-        <article class="person">
           <h3>Patrick Schwab</h3>
           <p class="affiliation">GSK</p>
         </article>
         <article class="person">
-          <h3>Joe Betts-LaCroix</h3>
-          <p class="affiliation">Retro Biosciences</p>
+          <h3>Eric Sun</h3>
+          <p class="affiliation">MIT</p>
         </article>
         <article class="person">
-          <h3>Alex Zhavoronkov</h3>
-          <p class="affiliation">Insilico Medicine</p>
+          <h3>Sarah Teichmann</h3>
+          <p class="affiliation">University of Cambridge</p>
         </article>
       </div>
     </section>
 
     <section id="schedule" class="section">
       <p class="eyebrow">Schedule</p>
-      <h2>Proposed program</h2>
-      <p class="section-intro">Draft one-day format (7–9 hours). Session titles and speaker assignments are subject to change.</p>
+      <h2>Tentative program</h2>
+      <p class="section-intro">One-day, in-person workshop. Times will be aligned with ICLR 2027’s official breaks. Speaker assignments for keynotes are not yet fixed.</p>
       <div class="schedule">
-        <div><time>09:00</time><span>Opening remarks: AI for aging research as a frontier ML problem</span></div>
-        <div><time>09:15</time><span>Keynote: Foundation models for cellular systems and aging</span></div>
-        <div><time>10:00</time><span>Invited talk: Virtual cells and perturbation modeling</span></div>
-        <div><time>10:45</time><span>Coffee break</span></div>
-        <div><time>11:00</time><span>Contributed spotlights</span></div>
-        <div><time>11:45</time><span>Poster session I</span></div>
-        <div><time>12:30</time><span>Lunch</span></div>
-        <div><time>13:30</time><span>Keynote: Aging clocks, biomarkers, and biological age prediction</span></div>
-        <div><time>14:15</time><span>Invited talk: Generative models for biological interventions</span></div>
-        <div><time>15:00</time><span>Panel: Can AI accelerate interventions for aging?</span></div>
-        <div><time>16:00</time><span>Poster session II</span></div>
-        <div><time>17:00</time><span>Community roadmap and closing remarks</span></div>
+        <div><time>09:00–09:10</time><span>Opening remarks</span></div>
+        <div><time>09:10–09:40</time><span>Keynote 1: Learning representations of biological age and state</span></div>
+        <div><time>09:40–10:10</time><span>Contributed spotlights I (4 × 7 min)</span></div>
+        <div><time>10:10–11:30</time><span>Poster session I and coffee</span></div>
+        <div><time>11:30–12:00</time><span>Keynote 2: Biological dynamics, world models, and interventions</span></div>
+        <div><time>12:00–12:20</time><span>Tiny-paper pitches (6 × 3 min)</span></div>
+        <div><time>12:20–13:30</time><span>Lunch, with birds-of-a-feather tables</span></div>
+        <div><time>13:30–14:20</time><span>Panel discussion</span></div>
+        <div><time>14:20–14:50</time><span>Keynote 3: Causality, perturbations, and counterfactual biology</span></div>
+        <div><time>14:50–16:00</time><span>Poster session II and coffee</span></div>
+        <div><time>16:00–16:30</time><span>Keynote 4: From aging biology to intervention discovery</span></div>
+        <div><time>16:30–17:00</time><span>Contributed spotlights II (4 × 7 min)</span></div>
+        <div><time>17:00–17:35</time><span>Open problems roundtable</span></div>
+        <div><time>17:35–17:45</time><span>Closing remarks and best paper award</span></div>
       </div>
     </section>
 
@@ -170,35 +182,39 @@
           <p class="affiliation">Altos Labs</p>
         </article>
         <article class="person">
-          <h3>Paula Martin-Gonzalez</h3>
-          <p class="affiliation">Altos Labs</p>
+          <h3>Kejun (Albert) Ying</h3>
+          <p class="affiliation">Stanford University</p>
         </article>
         <article class="person">
-          <h3>Aleksandr Dekan</h3>
-          <p class="affiliation">University of Copenhagen</p>
+          <h3>Alexander Tyshkovskiy</h3>
+          <p class="affiliation">Harvard Medical School</p>
         </article>
         <article class="person">
-          <h3>Patrick Schwab</h3>
-          <p class="affiliation">GSK</p>
+          <h3>Mahdi Moqri</h3>
+          <p class="affiliation">Harvard Medical School</p>
         </article>
         <article class="person">
-          <h3>Henry E. Miller</h3>
+          <h3>Le Song</h3>
+          <p class="affiliation">MBZUAI · GenBio AI</p>
+        </article>
+        <article class="person">
+          <h3>Lucas Paulo de Lima Camillo</h3>
           <p class="affiliation">Shift Bioscience</p>
         </article>
       </div>
-      <p class="prose note">Interested in co-organizing, speaking, or reviewing? See <a href="#contact">Contact</a>.</p>
+      <p class="prose note">Interested in reviewing or attending? See <a href="#contact">Contact</a>.</p>
     </section>
 
     <section id="contact" class="section contact">
       <p class="eyebrow">Contact</p>
       <h2>Get involved</h2>
-      <p>Co-organizers, invited speakers, program committee members, and sponsors—please reach out.</p>
+      <p>Questions about the workshop, reviewing, or the call for papers—please reach out.</p>
       <a class="button primary" href="mailto:ai4longevity.workshop@gmail.com">ai4longevity.workshop@gmail.com</a>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 AI4Aging Workshop</p>
+    <p>© 2026 AI for Aging Research (AI4AR)</p>
   </footer>
 
   <script>

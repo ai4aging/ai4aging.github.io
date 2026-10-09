@@ -1,6 +1,6 @@
-# AI4Aging Workshop Website
+# AI4AR Workshop Website
 
-Static GitHub Pages site for a proposed NeurIPS 2026 workshop: **Foundation Models and Generative AI for Aging Science**.
+Static GitHub Pages site for a proposed ICLR 2027 workshop: **AI for Aging Research** — learning, predicting, and intervening on biological aging.
 
 **Live URL:** https://ai4aging.github.io
 
@@ -30,7 +30,6 @@ GitHub Pages is configured on **ai4aging/ai4aging.github.io**: Settings → Page
 
 ## Suggested edits before sharing publicly
 
-- Confirm invited speakers and add talk titles after acceptance
-- Add confirmed organizers with affiliations
-- Update dates after NeurIPS announces workshop details
-- Add OpenReview link after acceptance
+- Assign keynote and panel roles after acceptance
+- Add OpenReview and reviewer nomination links after acceptance
+- Fill organizer emails and bios from the proposal draft before public sharing
